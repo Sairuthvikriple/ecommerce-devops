@@ -1,0 +1,11 @@
+{
+  "name": "ecommerce-devops",
+  "version": "1.0.0",
+  "description": "Sample E-commerce application for DevOps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node --check app.js && node --check server.js",
+    "test": "node --test"
+  }
+}
